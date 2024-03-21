@@ -69,7 +69,7 @@ p {
     background-color: black !important;
     z-index: 1;
     padding-bottom: 0em;
-    color: white;
+    color: white !important;
 
 }
 
