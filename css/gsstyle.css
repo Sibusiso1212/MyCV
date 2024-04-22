@@ -8,8 +8,7 @@ body {
     text-align: center;
     -webkit-font-smoothing: antialiased;
     font-family: tahoma, sans-serif;
-    background-image: url("/images/backCover.jpg");
-
+    background-color: black !important;
 
 
 }
@@ -34,51 +33,26 @@ p {
     padding: 1em 0;
     margin: 0 auto;
 
-}
-
-.trade_mark {
-
-    font-size: 1.0em;
-    border-bottom: .2em solid #C49D5A;
-    border-top: .2em solid #C49D5A;
-    border-radius: 20em;
-    margin-top: 1em;
-    margin-right: .4em;
-    color: #C49D5A;
-}
-
-#webdesign {
-    font-family: tahoma, arial, sans-serif;
-    font-size: 0.9em;
-    color: #C49D5A;
-}
-
-#word_design {
-    color: #4B8393;
-}
-
-#the_letter_D {
-    font-style: italic;
 
 }
+
+
+
 
 #navBar {
 
     text-align: center;
     width: 100%;
-    background-color: #132848 !important;
+    background-color: black !important;
     z-index: 1;
     padding-bottom: 0em;
     opacity: .8;
+    color: white !important;
 
 }
 
 
-/*About*/
-
-
-
-#name {
+/About/ #name {
     font-weight: bold;
     color: #006699;
     margin: 0 auto;
@@ -110,13 +84,13 @@ p {
     /* Float the image to the left */
     margin-right: 2em;
     /* Add a margin to the right of the image */
+    border: none;
 
 
 
 }
 
-/*Portfolio*/
-#portfolio_wrapper {
+/Portfolio/ #portfolio_wrapper {
     width: 100%;
     text-align: center;
     margin: 2em auto;
@@ -198,9 +172,7 @@ p {
 }
 
 
-/*Individual selection of portfolio circles*/
-
-#personalInformation {
+/Individual selection of portfolio circles/ #personalInformation {
 
     display: none;
 
@@ -219,8 +191,7 @@ p {
 
 
 
-/*Portfolio content*/
-#portfolio_information_wrapper {
+/Portfolio content/ #portfolio_information_wrapper {
 
     width: 60%;
     text-align: center;
@@ -238,9 +209,7 @@ p {
 
 }
 
-/*Table Portfolio information*/
-
-table {
+/Table Portfolio information/ table {
 
     margin: 2em auto;
     width: 100%;
