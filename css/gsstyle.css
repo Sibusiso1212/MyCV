@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: tahoma, sans-serif;
+    background-image: url("/images/backCover.jpg");
+
+
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+p {
+    line-height: 1.5em;
+    letter-spacing: .1em;
+}
+
+.logo {
+
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 auto;
+
+}
+
+.trade_mark {
+
+    font-size: 1.0em;
+    border-bottom: .2em solid #C49D5A;
+    border-top: .2em solid #C49D5A;
+    border-radius: 20em;
+    margin-top: 1em;
+    margin-right: .4em;
+    color: #C49D5A;
+}
+
+#webdesign {
+    font-family: tahoma, arial, sans-serif;
+    font-size: 0.9em;
+    color: #C49D5A;
+}
+
+#word_design {
+    color: #4B8393;
+}
+
+#the_letter_D {
+    font-style: italic;
+
+}
+
+#navBar {
+
+    text-align: center;
+    width: 100%;
+    background-color: #132848 !important;
+    z-index: 1;
+    padding-bottom: 0em;
+    opacity: .8;
+
+}
+
+
+/*About*/
+
+
+
+#name {
+    font-weight: bold;
+    color: #006699;
+    margin: 0 auto;
+
+}
+
+#welcome_header {
+
+    color: white;
+    margin: 2em auto;
+
+}
+
+#welcome_note {
+
+    color: white;
+    text-align: left;
+    overflow: hidden;
+
+
+
+}
+
+#profile_image {
+
+
+    width: 20%;
+    float: left;
+    /* Float the image to the left */
+    margin-right: 2em;
+    /* Add a margin to the right of the image */
+
+
+
+}
+
+/*Portfolio*/
+#portfolio_wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 2em auto;
+
+}
+
+.portfolio_circle {
+    text-align: center;
+    margin: 2em 2em;
+    display: inline-block;
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    display: none;
+    box-shadow: -3px -3px 30px #FFFFFF73, 3px 3px 10px #C49D5A73;
+}
+
+.portfolio {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+    color: #C49D5A;
+}
+
+.portfolio_images {
+
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: white !important;
+    width: 5em;
+}
+
+#portfolio_information_wrapper {
+
+    margin: 0 auto;
+
+}
+
+.portfolio_information {
+
+    border-radius: .4em;
+    display: none;
+    padding: .3em;
+    margin: 2em auto;
+    width: 100%;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+
+}
+
+.view_button {
+    margin: 1em auto;
+    padding: .3em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #C49D5A;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+
+
+}
+
+.close_button {
+
+    margin: 1em auto;
+    padding: .3em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #C49D5A;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+
+
+}
+
+
+/*Individual selection of portfolio circles*/
+
+#personalInformation {
+
+    display: none;
+
+
+}
+
+#skillsAndEducation {
+
+    display: none;
+}
+
+#workExperience {
+
+    display: none;
+}
+
+
+
+/*Portfolio content*/
+#portfolio_information_wrapper {
+
+    width: 60%;
+    text-align: center;
+}
+
+#skills_and_educaction_data {
+
+    display: none;
+
+}
+
+#work_experience_data {
+
+    display: none;
+
+}
+
+/*Table Portfolio information*/
+
+table {
+
+    margin: 2em auto;
+    width: 100%;
+}
+
+th {
+
+    color: #C49D5A;
+
+}
+
+td {
+    margin: 1em auto;
+    text-align: left;
+    color: white;
+    padding: .6em;
+    font-weight: bold;
+    color: white;
+}
+
+
+#social_links {
+    padding: 1em;
+    width: 30%;
+    margin: 1em auto;
+    display: inline
+}
+
+#social_links a {
+
+    margin: .4em;
+    text-decoration: none;
+    color: #C49D5A;
+    font-size: 2em;
+
+}
+
+hr {
+    margin: 1em auto;
+    width: 50%;
+    color: red;
+}
+
+#footer {
+    text-align: center;
+    margin: .7em auto;
+    margin-bottom: 0em;
+    padding: 2em;
+    background-color: white !important;
+}
